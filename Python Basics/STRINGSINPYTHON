@@ -1,0 +1,18 @@
+
+name = "SoumyadipBhowmik"
+print(len(name)) #shows the length of the whole string
+print(name.index('o')) #finds out the first index the argument is present in
+print(name.count('o')) #this is used to take an argument of a letter and finds out how many ofthat letter is present in the string
+print(name[3:12]) #takes from 3rd index to 11th index. NOT 12th index
+print(name[:12]) #leaving the first part will take it towards the given index stating from the front
+print(name[3:]) #leaving the second part will take it towards the last index
+print(name[2::2]) #this skips the third index going from 2nd index to last index
+
+#Reversed String, apparently
+print(name[:-2]) #this will print the whole string backward from the 2nd last string to the first letter
+print(name[::-1]) #reverses the whole string
+
+#But does it work with numbers?
+
+# number = 123456789
+# print(number.index(5)) #Well NO,it doesn't work
